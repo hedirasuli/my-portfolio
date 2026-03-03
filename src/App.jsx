@@ -1,13 +1,11 @@
 import React from 'react';
+import Navbar from './sections/Navbar'; 
 import Hero from './sections/Hero';
 
-/**
- * Main Application Component
- */
 function App() {
   return (
-    <div className="min-h-screen">
-      {/* I can add a Navbar here later */}
+    <div className="relative">
+      <Navbar /> {}
       <main>
         <Hero />
       </main>
