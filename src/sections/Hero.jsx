@@ -1,46 +1,61 @@
 import React from 'react';
-import profileImg from '../assets/profile.jpg'; // Import the image
+import profileImg from '../assets/profile.jpg'; // Ensure the path is correct
+
 /**
- * Hero Section Component
- * Displaying professional introduction and profile picture
+ * Custom Hero Section
+ * Features: Cyan background, centered text, split bottom layout
  */
-
-
 const Hero = () => {
-    return (
-      <section className="min-h-[80vh] flex flex-col md:flex-row items-center justify-between px-8 py-16 bg-white text-gray-800">
-        {/* Introduction Text */}
-        <div className="md:w-1/2 space-y-6">
-          <h1 className="text-5xl font-extrabold text-blue-600">
-            Hi, I'm Hedi Rasuli
-          </h1>
-          <p className="text-xl leading-relaxed text-gray-600">
-            A passionate developer based in Germany, focusing on building modern web applications. 
-            I specialize in React and clean UI designs.
-          </p>
-          <div className="flex space-x-4">
-            <a href="#" className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
-              LinkedIn
-            </a>
-            <a href="#" className="border-2 border-blue-600 text-blue-600 px-6 py-2 rounded-lg hover:bg-blue-50 transition">
-              GitHub
-            </a>
-          </div>
+  return (
+    <section className="min-h-[80vh] bg-[#00ffff] flex flex-col items-center justify-between p-8 md:p-16">
+      
+      {/* Top Section: Centered Typography with High Contrast */}
+      <div className="w-full text-center mt-10">
+        <h1 className="text-6xl font-black text-slate-900 mb-4 drop-shadow-sm">
+          Hi, I'm Hedi Rasuli
+        </h1>
+        <p className="text-xl md:text-2xl text-slate-800 font-medium max-w-3xl mx-auto">
+          A passionate developer based in Germany, focusing on building modern web applications. 
+          I specialize in React and clean UI designs.
+        </p>
+      </div>
+
+      {/* Bottom Section: Buttons Left, Large Image Right */}
+      <div className="w-full flex flex-col md:flex-row items-center justify-between mt-12 md:mt-0">
+        
+        {/* Buttons Group - Left Side */}
+        <div className="flex flex-row space-x-6 mb-12 md:mb-0">
+          <a 
+            href="#" 
+            className="bg-slate-900 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-slate-700 hover:scale-105 transition-all shadow-lg"
+          >
+            LinkedIn
+          </a>
+          <a 
+            href="#" 
+            className="border-2 border-slate-900 text-slate-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-slate-900 hover:text-[#00ffff] hover:scale-105 transition-all"
+          >
+            GitHub
+          </a>
         </div>
-  
-       
-        {/* Profile Image Space */}
-<div className="md:w-1/3 mt-12 md:mt-0 flex justify-center">
-  <div className="w-64 h-64 bg-gray-200 rounded-full border-4 border-blue-100 flex items-center justify-center overflow-hidden shadow-2xl">
-    <img 
-      src={profileImg} 
-      alt="My Profile" 
-      className="w-full h-full object-cover rounded-full" 
-    />
-  </div>
-</div>
-      </section>
-    );
-  };
-  
-  export default Hero;
+
+        {/* Larger Profile Image - Right Side */}
+        <div className="relative group">
+          <div className="w-80 h-80 md:w-96 md:h-96 rounded-full border-8 border-white overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.2)] transition-transform duration-500 group-hover:rotate-3">
+            <img 
+              src={profileImg} 
+              alt="Hedi Rasuli Profile" 
+              className="w-full h-full object-cover" 
+            />
+          </div>
+          {/* Decorative element behind image */}
+          <div className="absolute -bottom-4 -right-4 w-full h-full bg-slate-900 rounded-full -z-10 opacity-10 group-hover:opacity-20 transition-opacity"></div>
+        </div>
+
+      </div>
+
+    </section>
+  );
+};
+
+export default Hero;

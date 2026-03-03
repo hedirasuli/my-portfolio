@@ -7,7 +7,7 @@ import Hero from './sections/Hero';
 function App() {
   return (
     <div className="min-h-screen">
-      {/* We can add a Navbar here later */}
+      {/* I can add a Navbar here later */}
       <main>
         <Hero />
       </main>
