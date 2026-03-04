@@ -23,10 +23,9 @@ const Footer = () => {
              className="text-slate-400 hover:text-[#00ffff] transition-all transform hover:scale-110">
             <FaLinkedin size={20} />
           </a>
-          <a href="https://t.me/your_username" target="_blank" rel="noopener noreferrer" 
-             className="text-slate-400 hover:text-[#00ffff] transition-all transform hover:scale-110">
-            <FaTelegram size={20} />
-          </a>
+          <a href="#" className="text-slate-400 cursor-default">
+             <FaTelegram size={20} />
+           </a>
         </div>
 
         {/* Back to top (Optional) */}
