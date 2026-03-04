@@ -1,17 +1,16 @@
-import React from 'react';
 import Navbar from './sections/Navbar';
 import Hero from './sections/Hero';
-import Projects from './sections/Projects'; // 1. Import Projects component
+import Projects from './sections/Projects';
+import Skills from './sections/Skills';
 
 function App() {
   return (
-    <div className="relative">
+    <main className="min-h-screen bg-slate-900 text-white">
       <Navbar />
-      <main>
-        <Hero />
-        <Projects /> {/* 2. Add Projects section here */}
-      </main>
-    </div>
+      <Hero />
+      <Projects />
+      <Skills />
+    </main>
   );
 }
 
