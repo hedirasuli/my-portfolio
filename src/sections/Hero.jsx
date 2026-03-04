@@ -26,13 +26,13 @@ const Hero = () => {
         {/* Buttons Group - Left Side */}
         <div className="flex flex-row space-x-6 mb-12 md:mb-0">
           <a 
-            href="#" 
+            href="https://www.linkedin.com/in/hedi-rasuli/" 
             className="bg-slate-900 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-slate-700 hover:scale-105 transition-all shadow-lg"
           >
             LinkedIn
           </a>
           <a 
-            href="#" 
+            href="https://github.com/hedirasuli" 
             className="border-2 border-slate-900 text-slate-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-slate-900 hover:text-[#00ffff] hover:scale-105 transition-all"
           >
             GitHub
