@@ -78,7 +78,8 @@ export const projectsData = [
     description: "An educational tool that visualizes classic sorting algorithms like Bubble and Quick Sort.",
     image: sortingImg,
     github: "https://github.com/hedirasuli/my-fcc-projects/tree/12349c51a405470cc2708b795f9c3696869f3c66/script.js/Build%20a%20Sorting%20Visualizer.js",
-    demo: "https://google.com",
+    demo: "https://my-fcc-projects-08.vercel.app"
+    ,
     tags: ["JavaScript", "Algorithms", "Canvas"]
   },
 
