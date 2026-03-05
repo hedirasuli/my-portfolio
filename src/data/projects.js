@@ -41,7 +41,7 @@ export const projectsData = [
     description: "A fully functional calculator with a clean UI, handling complex mathematical operations and logic.",
     image: calculatorImg,
     github: "https://github.com/hedirasuli/my-fcc-projects/tree/12349c51a405470cc2708b795f9c3696869f3c66/script.js/Bulid%20a%20Calculator.js",
-    demo: "https://my-fcc-projects-03.vercel.app"
+    demo: "https://my-fcc-projects-03.vercel.app/"
    ,
     tags: ["JavaScript", "HTML5", "CSS3"]
   },
