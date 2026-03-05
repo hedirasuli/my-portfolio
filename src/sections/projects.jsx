@@ -1,6 +1,6 @@
 import React from 'react';
 /* English: Import the database from your data file */
-import { projectsData } from '../data/Projects';
+import { projectsData } from '../data/projects';
 
 const Projects = () => {
   return (
