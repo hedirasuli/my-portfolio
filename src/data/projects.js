@@ -21,7 +21,7 @@ export const projectsData = [
     description: "A CSS-only animation project showcasing advanced keyframes and celestial body motion.",
     image: orbitImg,
     github: "https://github.com/hedirasuli/my-fcc-projects/tree/12349c51a405470cc2708b795f9c3696869f3c66/style.css/Build%20a%20Moon%20Orbit",
-    demo: "https://google.com",
+    demo: "https://my-fcc-projects-pi.vercel.app",
     tags: ["HTML5", "CSS3", "Animation"]
   },
   {
