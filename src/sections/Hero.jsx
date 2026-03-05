@@ -12,11 +12,10 @@ const Hero = () => {
       {/* Top Section: Centered Typography with High Contrast */}
       <div className="w-full text-center mt-10">
         <h1 className="text-6xl font-black text-slate-900 mb-4 drop-shadow-sm">
-          Hi, I'm Hedi Rasuli
+          Hi, I'm Hedi
         </h1>
         <p className="text-xl md:text-2xl text-slate-800 font-medium max-w-3xl mx-auto">
-          A passionate developer based in Germany, focusing on building modern web applications. 
-          I specialize in React and clean UI designs.
+        A Frontend Developer dedicated to building high-performance web applications with React and crafting seamless user experiences.
         </p>
       </div>
 
