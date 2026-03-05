@@ -1,6 +1,6 @@
 import Navbar from './sections/Navbar';
 import Hero from './sections/Hero';
-import Projects from './sections/Projects';
+import Projects from './sections/projects';
 import Skills from './sections/Skills';
 import Contact from './sections/Contact'; 
 import Footer from './sections/Footer';
