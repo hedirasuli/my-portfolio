@@ -60,7 +60,7 @@ export const projectsData = [
     description: "A financial tool that calculates exchange rates using external API integration and JavaScript logic.",
     image: currencyImg,
     github: "https://github.com/hedirasuli/my-fcc-projects/tree/12349c51a405470cc2708b795f9c3696869f3c66/react-practice/Currency%20Converter.jsx",
-    demo: "https://google.com",
+    demo: "https://my-fcc-projects-05.vercel.app",
     tags: ["JavaScript", "API Fetch", "HTML/CSS"]
   },
   {
