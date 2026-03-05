@@ -30,7 +30,7 @@ export const projectsData = [
     description: "A sophisticated layout project using CSS Grid and Flexbox to create a detailed urban landscape.",
     image: skylineImg,
     github: "https://github.com/hedirasuli/my-fcc-projects/tree/12349c51a405470cc2708b795f9c3696869f3c66/style.css/City%20Skyline",
-    demo: "https://google.com",
+    demo: "https://my-fcc-projects-02.vercel.app",
     tags: ["HTML5", "CSS Grid", "Flexbox"]
   },
 
