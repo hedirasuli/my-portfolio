@@ -51,7 +51,7 @@ export const projectsData = [
     description: "A dynamic web application providing weather updates using OpenWeather API integration and vanilla JavaScript.",
     image: weatherImg,
     github: "https://github.com/hedirasuli/my-fcc-projects/tree/12349c51a405470cc2708b795f9c3696869f3c66/script.js/Build%20a%20Weather%20App.js",
-    demo: "https://google.com",
+    demo: "https://my-fcc-projects-04.vercel.app",
     tags: ["JavaScript", "API Integration", "HTML/CSS"]
   },
   {
