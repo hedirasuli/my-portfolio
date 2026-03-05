@@ -69,7 +69,7 @@ export const projectsData = [
     description: "An interactive e-commerce component featuring digital music assets with responsive design.",
     image: musicImg,
     github: "https://github.com/hedirasuli/my-fcc-projects/tree/12349c51a405470cc2708b795f9c3696869f3c66/react-practice/MusicShoppingCart.jsx",
-    demo: "https://google.com",
+    demo: "https://my-fcc-projects-07.vercel.app",
     tags: ["JavaScript", "HTML5", "CSS3"]
   },
   {
