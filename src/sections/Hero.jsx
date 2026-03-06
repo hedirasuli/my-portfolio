@@ -7,7 +7,7 @@ import profileImg from '../assets/profile.jpg'; // Ensure the path is correct
  */
 const Hero = () => {
   return (
-    <section className="min-h-[80vh] pt-32 bg-[#00ffff] flex flex-col items-center justify-between p-8 md:p-16">
+    <section id="home" className="min-h-[80vh] pt-32 bg-[#00ffff] flex flex-col items-center justify-between p-8 md:p-16">
       
       {/* Top Section: Centered Typography with High Contrast */}
       <div className="w-full text-center mt-10">
